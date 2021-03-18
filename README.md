@@ -7,6 +7,11 @@ Vanilla policy gradient takes longer but convergence is smoother than DQN for th
 python ./vpg_pytorch.py 
 ```
 
+`vpg_pytorch.py` trains model, saves the checkpoint for every 1000 episode, and saves well-trained model's weights.
+
+- path for checkpoint file ./Save/YY-MM-DD-hh:mm:ss/vpg_cp_ep[#ep].pth
+- weight file: ./Save/YY-MM-DD-hh:mm:ss/vpg_weight_ep[#ep].pth
+
 ## Testing
 ```bash
 python test_vpg_pytorch.py <directory>
