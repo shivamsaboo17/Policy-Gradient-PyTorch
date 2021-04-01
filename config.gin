@@ -1,0 +1,6 @@
+train.env_id = 'gym_rds_cartpole:RdsCartPole-async-v0'
+train.num_episodes = 10000
+train.batch_size = 10
+train.lr = 1e-2
+train.gamma = 0.99
+train.cp_path = 'Save/2021-04-01-15:16:12/vpg_cp_ep_400.pth'

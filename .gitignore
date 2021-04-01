@@ -1,0 +1,4 @@
+*.pth
+Save/
+.vscode
+*.png
